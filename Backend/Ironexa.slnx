@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Ironexa.Api/Ironexa.Api.csproj" />
+  <Project Path="Ironexa.Application/Ironexa.Application.csproj" />
+  <Project Path="Ironexa.Domain/Ironexa.Domain.csproj" />
+  <Project Path="Ironexa.Infrastructure/Ironexa.Infrastructure.csproj" />
+</Solution>
