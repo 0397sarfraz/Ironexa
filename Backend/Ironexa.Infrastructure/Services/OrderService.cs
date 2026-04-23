@@ -1,5 +1,4 @@
-﻿using Azure.Core;
-using Ironexa.Application.DTOs;
+﻿using Ironexa.Application.DTOs;
 using Ironexa.Application.Interfaces;
 using Ironexa.Domain.Entities;
 using Ironexa.Infrastructure.Context;

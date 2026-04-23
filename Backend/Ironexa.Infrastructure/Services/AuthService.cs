@@ -2,11 +2,11 @@
 using Ironexa.Application.Interfaces;
 using Ironexa.Infrastructure.Identity;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.Data.SqlClient;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using System;
+using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
