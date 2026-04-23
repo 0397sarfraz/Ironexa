@@ -1,6 +1,6 @@
 import axios from "axios";
 const API=axios.create({
-    baseURL:"https://localhost:7222/api"
+    baseURL:"https://ironexa-backend.onrender.com/api"
 });
 //intercepter
 
