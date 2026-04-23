@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\sahma\\source\\repos\\Ironexa\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3E2EE289-0095-9A1C-C881-1A982388EE60}|Ironexa.Infrastructure\\Ironexa.Infrastructure.csproj|c:\\users\\sahma\\source\\repos\\ironexa\\ironexa.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E2EE289-0095-9A1C-C881-1A982388EE60}|Ironexa.Infrastructure\\Ironexa.Infrastructure.csproj|solutionrelative:ironexa.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{45B632F6-0C62-6F10-649B-E226B0BB397A}|Ironexa.Application\\Ironexa.Application.csproj|c:\\users\\sahma\\source\\repos\\ironexa\\ironexa.application\\dtos\\dashboarddatadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{45B632F6-0C62-6F10-649B-E226B0BB397A}|Ironexa.Application\\Ironexa.Application.csproj|solutionrelative:ironexa.application\\dtos\\dashboarddatadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,8 +15,8 @@
       "RelativeMoniker": "D:0:0:{F700C017-F6BB-002C-66A6-4AF4EB49B803}|Ironexa.Api\\Ironexa.Api.csproj|solutionrelative:ironexa.api\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{45B632F6-0C62-6F10-649B-E226B0BB397A}|Ironexa.Application\\Ironexa.Application.csproj|c:\\users\\sahma\\source\\repos\\ironexa\\ironexa.application\\interfaces\\idashboarad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45B632F6-0C62-6F10-649B-E226B0BB397A}|Ironexa.Application\\Ironexa.Application.csproj|solutionrelative:ironexa.application\\interfaces\\idashboarad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{45B632F6-0C62-6F10-649B-E226B0BB397A}|Ironexa.Application\\Ironexa.Application.csproj|c:\\users\\sahma\\source\\repos\\ironexa\\ironexa.application\\interfaces\\idashboaradservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45B632F6-0C62-6F10-649B-E226B0BB397A}|Ironexa.Application\\Ironexa.Application.csproj|solutionrelative:ironexa.application\\interfaces\\idashboaradservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3E2EE289-0095-9A1C-C881-1A982388EE60}|Ironexa.Infrastructure\\Ironexa.Infrastructure.csproj|c:\\users\\sahma\\source\\repos\\ironexa\\ironexa.infrastructure\\services\\dashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -103,10 +107,6 @@
       "RelativeMoniker": "D:0:0:{F700C017-F6BB-002C-66A6-4AF4EB49B803}|Ironexa.Api\\Ironexa.Api.csproj|solutionrelative:ironexa.api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E2EE289-0095-9A1C-C881-1A982388EE60}|Ironexa.Infrastructure\\Ironexa.Infrastructure.csproj|c:\\users\\sahma\\source\\repos\\ironexa\\ironexa.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E2EE289-0095-9A1C-C881-1A982388EE60}|Ironexa.Infrastructure\\Ironexa.Infrastructure.csproj|solutionrelative:ironexa.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{45B632F6-0C62-6F10-649B-E226B0BB397A}|Ironexa.Application\\Ironexa.Application.csproj|c:\\users\\sahma\\source\\repos\\ironexa\\ironexa.application\\dtos\\paymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{45B632F6-0C62-6F10-649B-E226B0BB397A}|Ironexa.Application\\Ironexa.Application.csproj|solutionrelative:ironexa.application\\dtos\\paymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -186,24 +186,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DashboardController.cs",
-              "DocumentMoniker": "C:\\Users\\sahma\\source\\repos\\Ironexa\\Ironexa.Api\\Controllers\\DashboardController.cs",
-              "RelativeDocumentMoniker": "Ironexa.Api\\Controllers\\DashboardController.cs",
-              "ToolTip": "C:\\Users\\sahma\\source\\repos\\Ironexa\\Ironexa.Api\\Controllers\\DashboardController.cs",
-              "RelativeToolTip": "Ironexa.Api\\Controllers\\DashboardController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T17:15:03.498Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "DashboardDataDto.cs",
               "DocumentMoniker": "C:\\Users\\sahma\\source\\repos\\Ironexa\\Ironexa.Application\\DTOs\\DashboardDataDto.cs",
               "RelativeDocumentMoniker": "Ironexa.Application\\DTOs\\DashboardDataDto.cs",
@@ -216,12 +203,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "DashboardService.cs",
               "DocumentMoniker": "C:\\Users\\sahma\\source\\repos\\Ironexa\\Ironexa.Infrastructure\\Services\\DashboardService.cs",
               "RelativeDocumentMoniker": "Ironexa.Infrastructure\\Services\\DashboardService.cs",
-              "ToolTip": "C:\\Users\\sahma\\source\\repos\\Ironexa\\Ironexa.Infrastructure\\Services\\DashboardService.cs",
-              "RelativeToolTip": "Ironexa.Infrastructure\\Services\\DashboardService.cs",
+              "ToolTip": "C:\\Users\\sahma\\source\\repos\\Ironexa\\Ironexa.Infrastructure\\Services\\DashboardService.cs*",
+              "RelativeToolTip": "Ironexa.Infrastructure\\Services\\DashboardService.cs*",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-22T15:49:43.521Z",
@@ -229,7 +216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Measurement.cs",
               "DocumentMoniker": "C:\\Users\\sahma\\source\\repos\\Ironexa\\Ironexa.Domain\\Entities\\Measurement.cs",
               "RelativeDocumentMoniker": "Ironexa.Domain\\Entities\\Measurement.cs",
@@ -242,7 +229,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "OrderDetailDto.cs",
               "DocumentMoniker": "C:\\Users\\sahma\\source\\repos\\Ironexa\\Ironexa.Application\\DTOs\\OrderDetailDto.cs",
               "RelativeDocumentMoniker": "Ironexa.Application\\DTOs\\OrderDetailDto.cs",
@@ -255,7 +242,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\sahma\\source\\repos\\Ironexa\\Ironexa.Domain\\Entities\\Order.cs",
               "RelativeDocumentMoniker": "Ironexa.Domain\\Entities\\Order.cs",
@@ -268,7 +255,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "OrderItem.cs",
               "DocumentMoniker": "C:\\Users\\sahma\\source\\repos\\Ironexa\\Ironexa.Domain\\Entities\\OrderItem.cs",
               "RelativeDocumentMoniker": "Ironexa.Domain\\Entities\\OrderItem.cs",
@@ -281,12 +268,38 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\sahma\\source\\repos\\Ironexa\\Ironexa.Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Ironexa.Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\sahma\\source\\repos\\Ironexa\\Ironexa.Infrastructure\\DependencyInjection.cs*",
+              "RelativeToolTip": "Ironexa.Infrastructure\\DependencyInjection.cs*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAkwBQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T14:40:07.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "IDashboarad.cs",
-              "DocumentMoniker": "C:\\Users\\sahma\\source\\repos\\Ironexa\\Ironexa.Application\\Interfaces\\IDashboarad.cs",
-              "RelativeDocumentMoniker": "Ironexa.Application\\Interfaces\\IDashboarad.cs",
-              "ToolTip": "C:\\Users\\sahma\\source\\repos\\Ironexa\\Ironexa.Application\\Interfaces\\IDashboarad.cs",
-              "RelativeToolTip": "Ironexa.Application\\Interfaces\\IDashboarad.cs",
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\sahma\\source\\repos\\Ironexa\\Ironexa.Api\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "Ironexa.Api\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\sahma\\source\\repos\\Ironexa\\Ironexa.Api\\Controllers\\DashboardController.cs*",
+              "RelativeToolTip": "Ironexa.Api\\Controllers\\DashboardController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T17:15:03.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IDashboaradService.cs",
+              "DocumentMoniker": "C:\\Users\\sahma\\source\\repos\\Ironexa\\Ironexa.Application\\Interfaces\\IDashboaradService.cs",
+              "RelativeDocumentMoniker": "Ironexa.Application\\Interfaces\\IDashboaradService.cs",
+              "ToolTip": "C:\\Users\\sahma\\source\\repos\\Ironexa\\Ironexa.Application\\Interfaces\\IDashboaradService.cs*",
+              "RelativeToolTip": "Ironexa.Application\\Interfaces\\IDashboaradService.cs*",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-22T15:50:12.785Z",
@@ -294,7 +307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Users\\sahma\\source\\repos\\Ironexa\\Ironexa.Infrastructure\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "Ironexa.Infrastructure\\Services\\AuthService.cs",
@@ -307,7 +320,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "OrderService.cs",
               "DocumentMoniker": "C:\\Users\\sahma\\source\\repos\\Ironexa\\Ironexa.Infrastructure\\Services\\OrderService.cs",
               "RelativeDocumentMoniker": "Ironexa.Infrastructure\\Services\\OrderService.cs",
@@ -320,7 +333,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "OrderController.cs",
               "DocumentMoniker": "C:\\Users\\sahma\\source\\repos\\Ironexa\\Ironexa.Api\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "Ironexa.Api\\Controllers\\OrderController.cs",
@@ -333,7 +346,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "IOrderService.cs",
               "DocumentMoniker": "C:\\Users\\sahma\\source\\repos\\Ironexa\\Ironexa.Application\\Interfaces\\IOrderService.cs",
               "RelativeDocumentMoniker": "Ironexa.Application\\Interfaces\\IOrderService.cs",
@@ -346,7 +359,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\sahma\\source\\repos\\Ironexa\\Ironexa.Application\\DTOs\\ResponseDto.cs",
               "RelativeDocumentMoniker": "Ironexa.Application\\DTOs\\ResponseDto.cs",
@@ -359,7 +372,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "CustomerDto.cs",
               "DocumentMoniker": "C:\\Users\\sahma\\source\\repos\\Ironexa\\Ironexa.Application\\DTOs\\CustomerDto.cs",
               "RelativeDocumentMoniker": "Ironexa.Application\\DTOs\\CustomerDto.cs",
@@ -372,7 +385,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "CreateOrderRequest.cs",
               "DocumentMoniker": "C:\\Users\\sahma\\source\\repos\\Ironexa\\Ironexa.Application\\DTOs\\CreateOrderRequest.cs",
               "RelativeDocumentMoniker": "Ironexa.Application\\DTOs\\CreateOrderRequest.cs",
@@ -385,7 +398,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "OrderItemDto.cs",
               "DocumentMoniker": "C:\\Users\\sahma\\source\\repos\\Ironexa\\Ironexa.Application\\DTOs\\OrderItemDto.cs",
               "RelativeDocumentMoniker": "Ironexa.Application\\DTOs\\OrderItemDto.cs",
@@ -398,7 +411,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "OrderItemDetailDto.cs",
               "DocumentMoniker": "C:\\Users\\sahma\\source\\repos\\Ironexa\\Ironexa.Application\\DTOs\\OrderItemDetailDto.cs",
               "RelativeDocumentMoniker": "Ironexa.Application\\DTOs\\OrderItemDetailDto.cs",
@@ -411,7 +424,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "OrderResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\sahma\\source\\repos\\Ironexa\\Ironexa.Application\\DTOs\\OrderResponseDto.cs",
               "RelativeDocumentMoniker": "Ironexa.Application\\DTOs\\OrderResponseDto.cs",
@@ -424,7 +437,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\sahma\\source\\repos\\Ironexa\\Ironexa.Api\\Program.cs",
               "RelativeDocumentMoniker": "Ironexa.Api\\Program.cs",
@@ -437,7 +450,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Payment.cs",
               "DocumentMoniker": "C:\\Users\\sahma\\source\\repos\\Ironexa\\Ironexa.Domain\\Entities\\Payment.cs",
               "RelativeDocumentMoniker": "Ironexa.Domain\\Entities\\Payment.cs",
@@ -450,7 +463,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "C:\\Users\\sahma\\source\\repos\\Ironexa\\Ironexa.Application\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "Ironexa.Application\\DependencyInjection.cs",
@@ -463,7 +476,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "Ironexa.Api.csproj",
               "DocumentMoniker": "C:\\Users\\sahma\\source\\repos\\Ironexa\\Ironexa.Api\\Ironexa.Api.csproj",
               "RelativeDocumentMoniker": "Ironexa.Api\\Ironexa.Api.csproj",
@@ -476,7 +489,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\sahma\\source\\repos\\Ironexa\\Ironexa.Api\\appsettings.json",
               "RelativeDocumentMoniker": "Ironexa.Api\\appsettings.json",
@@ -489,7 +502,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "MeasurementDto.cs",
               "DocumentMoniker": "C:\\Users\\sahma\\source\\repos\\Ironexa\\Ironexa.Application\\DTOs\\MeasurementDto.cs",
               "RelativeDocumentMoniker": "Ironexa.Application\\DTOs\\MeasurementDto.cs",
@@ -502,7 +515,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\sahma\\source\\repos\\Ironexa\\Ironexa.Api\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "Ironexa.Api\\Controllers\\AccountController.cs",
@@ -511,19 +524,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-12T16:29:19.704Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "C:\\Users\\sahma\\source\\repos\\Ironexa\\Ironexa.Infrastructure\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "Ironexa.Infrastructure\\DependencyInjection.cs",
-              "ToolTip": "C:\\Users\\sahma\\source\\repos\\Ironexa\\Ironexa.Infrastructure\\DependencyInjection.cs",
-              "RelativeToolTip": "Ironexa.Infrastructure\\DependencyInjection.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAkwBEAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-11T14:40:07.55Z",
               "EditorCaption": ""
             },
             {

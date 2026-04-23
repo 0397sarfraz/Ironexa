@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Ironexa.Api",
+    "\\Ironexa.Api\\Properties",
+    "\\Ironexa.Infrastructure"
+  ],
+  "SelectedNode": "\\Ironexa.Infrastructure\\DependencyInjection.cs",
+  "PreviewInSolutionExplorer": false
+}
