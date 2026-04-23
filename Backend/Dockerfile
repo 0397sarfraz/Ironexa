@@ -4,9 +4,11 @@ WORKDIR /src
 
 COPY . .
 
-# FIXED PATH 👇
-RUN dotnet restore "Ironexa.Api.csproj"
-RUN dotnet publish "Ironexa.Api.csproj" -c Release -o /app/out
+# solution restore
+RUN dotnet restore
+
+# publish API project
+RUN dotnet publish "Ironexa.Api/Ironexa.Api.csproj" -c Release -o /app/out
 
 # Runtime stage
 FROM mcr.microsoft.com/dotnet/aspnet:8.0
