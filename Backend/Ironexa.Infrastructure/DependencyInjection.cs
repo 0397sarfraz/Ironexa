@@ -14,7 +14,7 @@ namespace Ironexa.Infrastructure
         public static IServiceCollection AddInfrastructure(this IServiceCollection services, IConfiguration configuration)
         {
            services.AddDbContext<AppDbContext>(options =>
-                options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));            
+                options.UseNpgsql(configuration.GetConnectionString("DefaultConnection")));            
             services.AddScoped<IOrderService, OrderService>();
             services.AddScoped<IAuthService, AuthService>();
             services.AddScoped<IDashboaradService, DashboardService>();
