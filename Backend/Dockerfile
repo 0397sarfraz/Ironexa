@@ -4,10 +4,10 @@ WORKDIR /src
 
 COPY . .
 
-# solution restore
-RUN dotnet restore
+# 👇 IMPORTANT (direct API project restore)
+RUN dotnet restore "Ironexa.Api/Ironexa.Api.csproj"
 
-# publish API project
+# 👇 publish API (dependencies auto include ho jayenge)
 RUN dotnet publish "Ironexa.Api/Ironexa.Api.csproj" -c Release -o /app/out
 
 # Runtime stage
