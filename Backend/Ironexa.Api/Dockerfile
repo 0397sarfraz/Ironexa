@@ -1,15 +1,20 @@
 # Build stage
-FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
-WORKDIR /app
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+WORKDIR /src
 
+# copy everything
 COPY . .
-RUN dotnet restore
-RUN dotnet publish -c Release -o out
+
+# restore specific project
+RUN dotnet restore "Ironexa.Api/Ironexa.Api.csproj"
+
+# publish specific project
+RUN dotnet publish "Ironexa.Api/Ironexa.Api.csproj" -c Release -o /app/out
 
 # Runtime stage
-FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 FROM mcr.microsoft.com/dotnet/aspnet:8.0
 WORKDIR /app
+
 COPY --from=build /app/out .
 
 ENTRYPOINT ["dotnet", "Ironexa.Api.dll"]
