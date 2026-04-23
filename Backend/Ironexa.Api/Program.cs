@@ -40,10 +40,10 @@ if (app.Environment.IsDevelopment())
 app.UseSwaggerUI();
     app.MapScalarApiReference();
 }
-using (var scope = app.Services.CreateScope())
-{
-    await scope.ServiceProvider.SeedDataAsync();
-}
+// using (var scope = app.Services.CreateScope())
+// {
+//     await scope.ServiceProvider.SeedDataAsync();
+// }
 app.UseCors("AllowAll");
 app.UseHttpsRedirection();
 app.UseStaticFiles();
