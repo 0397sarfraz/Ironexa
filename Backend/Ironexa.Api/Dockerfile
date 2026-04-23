@@ -2,14 +2,11 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
-# copy everything
 COPY . .
 
-# restore specific project
-RUN dotnet restore "Ironexa.Api/Ironexa.Api.csproj"
-
-# publish specific project
-RUN dotnet publish "Ironexa.Api/Ironexa.Api.csproj" -c Release -o /app/out
+# FIXED PATH 👇
+RUN dotnet restore "Ironexa.Api.csproj"
+RUN dotnet publish "Ironexa.Api.csproj" -c Release -o /app/out
 
 # Runtime stage
 FROM mcr.microsoft.com/dotnet/aspnet:8.0
