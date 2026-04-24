@@ -169,7 +169,7 @@ const CreateOrder = () => {
                     image: null,
                     oldImage: item.image,
                     preview: item.image
-                        ? `https://localhost:7222/Images/${item.image}`
+                        ? `https://ironexa-backend.onrender.com/Images/${item.image}`
                         : ""
                 })));
 
