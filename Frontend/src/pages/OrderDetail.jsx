@@ -59,7 +59,7 @@ const OrderDetail = () => {
             <img
               src={
                 item.image
-                  ? `https://localhost:7222/Images/${item.image}`
+                  ? `https://ironexa-backend.onrender.com/Images/${item.image}`
                   : "/no-image.png"
               }
               alt='product'
