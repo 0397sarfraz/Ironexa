@@ -129,7 +129,7 @@ namespace Ironexa.Infrastructure.Services
             {
                 Customer = customer,
                 Status = "Pending",
-                OrderDate = DateTime.Now,
+                OrderDate = DateTime.UtcNow,
             };
             foreach (var item in request.OrderItems)
             {
