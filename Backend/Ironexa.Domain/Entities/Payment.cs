@@ -12,6 +12,6 @@ namespace Ironexa.Domain.Entities
         public decimal Amount { get; set; }
         public string PaymentType { get; set; } = null!;
         public string PaymentMode { get; set; } = null!;
-        public DateTime PaymentDate { get; set; }= DateTime.Now;
+        public DateTime PaymentDate { get; set; }= DateTime.UtcNow;
     }
 }
