@@ -10,7 +10,7 @@ namespace Ironexa.Domain.Entities
         public string Name { get; set; } = null!;
         public string Phone {  get; set; }= null!;  
         public string Address { get; set; }=null!;  
-        public DateTime CreatedDate { get; set; }=DateTime.Now;
+        public DateTime CreatedDate { get; set; }=DateTime.UtcNow;
         public ICollection<Order> Orders { get; set; }
     }
 }
